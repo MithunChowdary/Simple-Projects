@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(255, 190, 167);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    max-width: 270px;
+    margin: 0;
+    background-color: rgb(176, 249, 249);
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+button{
+    height:35px;
+    width: 55px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+button:hover, button:focus {
+    background: #b2ebf2;
+    outline: none;
+}
+.answer {
+    padding-bottom: 10px;
+    width: 100%;
+    max-width: 350px;
+    overflow-x: auto;      /* Enable horizontal scroll */
+    white-space: nowrap;   /* Prevent text from wrapping */
+    box-sizing: border-box;
+}
+.clear{
+    width: 229px;
+    margin-bottom: 9px;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
