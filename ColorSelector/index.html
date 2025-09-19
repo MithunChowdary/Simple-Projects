@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>ColorSelector</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="content">
+        <div class="main">
+        <div class="header">Select a color</div>
+        <div class="color">
+            <button onclick="red()"><div class="red"></div></button>
+            <button onclick="blue()"><div class="blue"></div></button>
+            <button onclick="yellow()"><div class="yellow"></div></button>
+            <button onclick="green()"><div class="green"></div></button>
+        </div>
+        <div class="enter">
+            <input type="text" class="input1" placeholder="Enter color">
+            <button onclick="changecolor()">Change color</button>
+        </div>
+        <div class="gradient">
+            <input type="text" class="input2" placeholder="Enter two colors (e.g. red, blue)">
+            <button onclick="createGradient()">Create gradient</button>
+        </div>
+        <div class="txt">
+            Pick a color 
+            to change 
+            the background color
+        </div>
+    </div>
+    </div>
+    <footer>Created by <b>MithunChowdary<br><br></b></footer>
+    <script src="script.js"></script>
+</body>
+</html>
