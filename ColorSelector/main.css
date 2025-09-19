@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 300ms;
+}
+.header{
+    font-size: 27px;
+    font-weight: 530;
+}
+.content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    max-width: 90vw;
+    
+}
+.red, .blue, .green, .yellow{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 6px;
+}
+.red{ background-color: red; }
+.blue{ background-color: blue; }
+.yellow{ background-color: yellow; }
+.green{ background-color: green; }
+.color button{
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0 8px;
+    cursor: pointer;
+}
+.color button:focus{
+    outline: 2px solid rgba(7, 7, 7, 0.6);
+    outline-offset: 3px;
+    border-radius: 10px;
+}
+.color{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+}
+.header, .color, .txt{
+    padding-bottom: 14px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.input2{
+    width: 200px;
+}
